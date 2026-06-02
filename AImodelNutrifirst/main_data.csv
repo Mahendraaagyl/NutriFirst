@@ -1,0 +1,80 @@
+id,calories,proteins,fat,carbohydrate,name,image,harga,bahan_dasar,protein_per_100cal
+1,184.0,18.8,14.0,0.0,Anak sapi daging gemuk segar,https://png.pngtree.com/png-clipart/20220124/ourmid/pngtree-a-plate-of-delicious-fat-cow-free-elements-png-image_4252411.png,33489,sapi,10.217391304347826
+2,174.0,19.6,10.0,0.0,Anak sapi daging kurus segar,https://asset.kompas.com/crops/BzqLdMzV0nYuuT_-vqxhGoDU0ag=/0x0:1000x667/780x390/data/photo/2020/11/28/5fc241d817d91.jpg,24997,sapi,11.264367816091955
+3,190.0,19.1,12.0,0.0,Anak sapi daging sedang segar,https://koran-jakarta.com/images/article/tips-memilih-daging-sapi-segar-dan-berkualitas-baik-untuk-dikonsumsi-210409135933.jpg,17991,sapi,10.052631578947368
+4,302.0,18.2,25.0,0.0,Ayam,https://images.ctfassets.net/1cj2ge3ast5f/4ETq9ybsnjCsGaailYLOGH/cf7db5b91c85f4ea1e309905a9679809/Ayam_Utuh.jpeg,10758,ayam,6.026490066225165
+5,297.0,35.9,15.2,1.6,Ayam  goreng Kentuckysayap,https://img-global.cpcdn.com/recipes/2ecb088a495ef73a/680x482cq70/ayam-goreng-kentucky-foto-resep-utama.jpg,16705,ayam,12.087542087542086
+6,270.0,32.3,11.2,9.9,Ayam ampela goreng,https://cdn1-production-images-kly.akamaized.net/MldE3BInsLHr9JgPKFlsYtmbV-E=/0x344:5472x3428/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3142898/original/027275800_1591175314-shutterstock_188934800.jpg,9843,ayam,11.962962962962962
+7,75.0,13.8,1.9,0.7,Ayam dideh/darah segar,https://pelopor.id/wp-content/uploads/2022/03/WhatsApp-Image-2022-02-05-at-11.46.55.jpeg,12337,ayam,18.4
+8,295.0,34.0,16.0,1.5,Ayam goreng church texa sayap,https://e7.pngegg.com/pngimages/66/902/png-clipart-church-s-chicken-bakery-chicken-nugget-fried-chicken-texas-chicken-church-s-chicken-bakery-thumbnail.png,9927,ayam,11.525423728813559
+9,338.0,35.2,20.6,0.4,Ayam goreng church texas dada,https://i0.wp.com/harga.web.id/wp-content/uploads/Harga-Texas-Chicken-Reguler-dan-Promo.jpg?fit=680%2C300&ssl=1,13323,ayam,10.414201183431954
+10,275.0,37.4,12.2,1.3,Ayam goreng kalasan paha,https://thumb.viva.id/intipseleb/1265x711/2022/10/21/6352aa183c0c1-resep-ayam-goreng-kalasan.jpg,13510,ayam,13.599999999999998
+11,298.0,34.2,16.8,0.1,Ayam goreng kentucky dada,https://awsimages.detik.net.id/community/media/visual/2021/07/07/kirim-pesan-unik-kfc-2_43.jpeg?w=1200,16867,ayam,11.476510067114095
+12,286.0,32.1,16.1,1.1,Ayam goreng Kentucky paha,https://img-global.cpcdn.com/recipes/d61db7c7021bcd27/680x482cq70/paha-kentucky-yummy-foto-resep-utama.jpg,15942,ayam,11.223776223776225
+13,295.0,39.2,13.6,1.0,Ayam goreng mbok berek dada,https://img-global.cpcdn.com/recipes/d15c8abab4246c58/680x482cq70/ayam-goreng-mbok-berek-foto-resep-utama.jpg,11646,ayam,13.28813559322034
+14,287.0,31.0,15.7,1.7,Ayam goreng paha,https://cdn1-production-images-kly.akamaized.net/EwEm3hoNsTm-YZSonSqX2IlcAaY=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2938630/original/066858200_1571039590-shutterstock_153914045.jpg,12263,ayam,10.801393728222997
+15,246.0,37.9,9.0,0.7,Ayam goreng pasundan dada,https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/6-C2DTTVLGUBJ3T6-C2DTTXDVTNJXLA/detail/menueditor_item_b01be5494e6b4600867dbcbc0dcd1ed2_1607529952400513906.webp,19048,ayam,15.40650406504065
+16,245.0,33.1,11.4,0.3,Ayam goreng pasundan paha,https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE2021041504584013744/detail/menueditor_item_de1f8bfb500e483d903ccb2e25a29a7d_1618462649639007677.webp,8649,ayam,13.510204081632654
+17,295.0,37.4,14.7,0.6,Ayam goreng pioneer dada,https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE20210726121341017693/detail/menueditor_item_428cb0ea19e44146a00e1cfbef85faae_1627524568218570621.webp,14824,ayam,12.677966101694915
+18,244.0,36.7,9.2,1.0,Ayam goreng sukabumi dada,https://i0.wp.com/i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d5baa5ea-bad6-4cc6-b6fe-a0c4a9a86979_Go-Biz_20211222_160332.jpeg,11674,ayam,15.04098360655738
+19,283.0,35.7,14.3,0.5,Ayam goreng sukabumi paha,https://i0.wp.com/i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/60ef5b81-53d7-4375-a9a3-b7eb2aed3b2a_master-menu-item-image_1597233742745.jpg?resize=728%2C500,16574,ayam,12.614840989399296
+20,261.0,27.4,16.1,1.6,Ayam hati segar,https://asset.kompas.com/crops/9dZTmg32w0stodtsJ52gf85QjD4=/0x0:902x601/750x500/data/photo/2021/01/26/600f9d1967e9b.jpg,15752,ayam,10.49808429118774
+21,264.0,18.2,20.1,2.7,Ayam taliwang masakan,https://asset.kompas.com/crops/-oAqlkfrKHaqebhytdtKz-JV6ls=/4x0:1000x664/750x500/data/photo/2020/12/22/5fe16c7655542.jpg,11700,ayam,6.893939393939394
+22,473.0,45.2,26.3,13.9,Ayam usus goreng,https://img-global.cpcdn.com/recipes/fa7c9443ce9efcb5/1200x630cq70/photo.jpg,11144,ayam,9.556025369978858
+23,84.0,6.0,6.0,1.4,Coto mangkasara sapi masakan,https://asset.kompas.com/crops/ljY1r3f3HJaNEuLip3iARQOaK-E=/0x1226:3000x3226/750x500/data/photo/2021/06/11/60c2acf88c6f0.jpg,21157,sapi,7.142857142857142
+24,190.0,19.1,12.0,0.0,Daging Anak Sapi,https://media.istockphoto.com/id/1138359907/id/foto/daging-escalope-potongan-daging-mentah.jpg?s=612x612&w=0&k=20&c=z5mFkMyiVftjcWw5Ll8ghKdWcK0k6byDA6azNQXr7R8=,22487,sapi,10.052631578947368
+25,207.0,18.8,14.0,0.0,Daging Sapi,https://asset.kompas.com/crops/loXNzgMXFEX_3avDpy_53_3rXsU=/1x0:1000x666/750x500/data/photo/2021/07/14/60ee601a87545.jpg,31205,sapi,9.082125603864736
+26,433.0,55.0,9.0,0.0,Dendeng Daging Sapi,https://awsimages.detik.net.id/community/media/visual/2022/02/20/resep-dendeng-sapi-medan_43.jpeg?w=700&q=90,23799,sapi,12.702078521939955
+27,77.0,13.8,1.9,0.7,Dideh darah ayam,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9d4T1r7jHqSELzd2b3KBFeJlzKWtbaUIbOrsHTyKYSr_SJvpO2EijjASugjDKlv0-WhFvsRpcskdPJx95G3cpox3XJVzjTbDJQaISa_egWAzjYl3Cd8Zb0hXWGcIGj8KavQ37Uu6qRvTtob_G9TAIxgfhI4Xz2yKfM_PuI3PixHmXXHJySQ70I4e9dQ/s600/dideh.jpg,10648,ayam,17.92207792207792
+28,104.0,21.9,1.1,0.0,Dideh darah sapi,https://cdns.diadona.id/diadona.id/resized/640x320/news/2020/09/29/23311/664xauto-banyak-digemari-kuliner-asal-indonesia-ini-ternyata-terbuat-dari-darah-hewan-200929c.jpg,27711,sapi,21.057692307692307
+29,141.0,15.0,8.1,0.9,Ginjal Sapi,https://i0.wp.com/herald.id/wp-content/uploads/2023/01/google.jpg?fit=521%2C405&ssl=1,31498,sapi,10.638297872340425
+30,136.0,19.7,3.2,6.0,Hati Sapi,https://doktersehat.com/wp-content/uploads/2022/04/hati-sapi-doktersehat.jpg,15464,sapi,14.485294117647058
+31,358.0,20.7,26.4,9.4,Ikan telur asin mentah,https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/09/Fish-roe.jpg?fit=540%2C404&ssl=1,9884,telur,5.782122905027933
+32,748.0,20.8,20.8,124.8,Kacang Telur ,https://img-global.cpcdn.com/recipes/18de1fa4c4094900/400x400cq70/photo.jpg,11074,telur,2.7807486631016043
+33,193.0,10.6,12.4,9.7,Kalio telur masakan,https://img-global.cpcdn.com/recipes/642209af1316da73/680x482cq70/kalio-telur-foto-resep-utama.jpg,8422,telur,5.492227979274611
+34,529.0,20.8,31.7,40.2,Keripik tempe abadi telur,https://s2.bukalapak.com/img/7559256151/large/kripik_tempe_abadi.jpg,12930,telur,3.9319470699432895
+35,200.0,8.9,5.1,29.5,Martabak Telur ,https://www.masakapahariini.com/wp-content/uploads/2020/10/Martabak-Telor-Bayam.jpg,5630,telur,4.45
+36,102.0,6.2,3.9,10.5,Mie ayam,https://awsimages.detik.net.id/community/media/visual/2022/10/12/resep-mie-ayam-kecap_43.jpeg?w=1200,18545,ayam,6.078431372549019
+37,478.0,38.3,33.9,5.1,Naan maran sapi masakan,https://drive.google.com/file/d/1LZOGoU3M3XcPbU5_HaAZ26ybCTbiTXpT/view?usp=sharing,29137,sapi,8.01255230125523
+38,120.0,1.1,0.2,26.8,Pisang ayam segar,https://assets.tokko.io/0feaf09b-2761-465e-98df-a8ae8e3d0837/products/images/9239a74b-b3ba-43b0-8368-88ae7940ff5e,12600,ayam,0.9166666666666666
+39,193.0,22.6,7.9,7.8,Rendang sapi masakan,https://asset.kompas.com/crops/HDe5rLDP0dEOLb6MC_UPvRTwFg8=/0x141:500x474/750x500/data/photo/2021/05/11/609a08809259f.jpg,32584,sapi,11.709844559585493
+40,212.0,18.0,10.6,59.3,Sapi abon,https://cdn0-production-images-kly.akamaized.net/fqIGhZT1Z1Zu36S_0_xZCoJSI5A=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3980335/original/086906600_1648695608-Abon_Sapi_Premium.jpg,32340,sapi,8.49056603773585
+41,108.0,17.6,4.2,0.0,Sapi babat segar,https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/3/10/5802bb88-dd3a-42b8-9d4e-f03f46fcf8a3.jpg,27522,sapi,16.296296296296298
+42,182.0,32.0,6.0,0.0,Sapi daging asap,https://asset.kompas.com/crops/FMBgpWLQutfbdsgz0ZytI8a9JKo=/0x542:1080x1262/750x500/data/photo/2022/03/22/6239b98488b17.jpg,23860,sapi,17.582417582417584
+43,301.0,55.0,9.0,0.0,Sapi daging dendeng mentah,https://cdns.diadona.id/diadona.id/resized/640x320/news/2020/04/27/9731/664xauto-cara-membuat-dendeng-sapi-yang-dijemur-kering-basah-kelapa-balado-dan-manis-200427a.jpg,22284,sapi,18.272425249169437
+44,273.0,17.5,22.0,0.0,Sapi daging gemuk segar,https://cdn1-production-images-kly.akamaized.net/lA6qLu1irMjT2OPAYtqnW-nvIfQ=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3133148/original/027517900_1589942784-Raw_Fresh_Meat_With_Rosemary.jpg,21205,sapi,6.41025641025641
+45,289.0,16.0,25.0,0.0,Sapi daging kornet,https://s4.bukalapak.com/attachment/418432/pengertian_kornet_main_image.jpg,17551,sapi,5.536332179930796
+46,174.0,19.6,10.0,0.0,Sapi daging kurus segar,https://cdn1-production-images-kly.akamaized.net/lA6qLu1irMjT2OPAYtqnW-nvIfQ=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3133148/original/027517900_1589942784-Raw_Fresh_Meat_With_Rosemary.jpg,27921,sapi,11.264367816091955
+47,201.0,18.8,14.0,0.0,Sapi daging lemak sedang segar,https://images.tokopedia.net/img/cache/700/VqbcmM/2020/10/10/3e7ebf5d-cc63-4354-ac94-e96ce7057653.png,28371,sapi,9.35323383084577
+48,448.0,14.5,42.3,2.3,Sapi daging sosis (Worst),https://images.tokopedia.net/img/cache/700/product-1/2020/7/3/1982472/1982472_d7e37ee9-0836-4eb7-9d26-fe0b1f602bd3_300_300,17248,sapi,3.2366071428571432
+49,183.0,12.0,14.4,1.4,Sapi daleman segar,https://asset-a.grid.id/crop/0x0:0x0/x/photo/2022/05/12/manfaat-jeroan-sapijpg-20220512025232.jpg,20094,sapi,6.557377049180328
+50,98.0,21.9,1.1,0.0,Sapi dideh/darah,https://cdns.diadona.id/diadona.id/resized/640x320/news/2020/09/29/23311/664xauto-banyak-digemari-kuliner-asal-indonesia-ini-ternyata-terbuat-dari-darah-hewan-200929c.jpg,28622,sapi,22.346938775510203
+51,137.0,15.0,8.1,0.9,Sapi ginjal segar,https://i0.wp.com/herald.id/wp-content/uploads/2023/01/google.jpg?fit=521%2C405&ssl=1,18407,sapi,10.948905109489052
+52,274.0,16.0,22.0,3.0,Sapi hati sosis (liverworst),https://img.herstory.co.id/articles/archive_20220708/sosis-daging-sapi-20220708-145317.jpg,20571,sapi,5.839416058394161
+53,84.0,10.5,4.6,0.2,Sapi keleponan segar,https://asset.kompas.com/crops/T3UEAUZcyLPz2Kf7uAajNqm1DV0=/0x0:999x666/780x390/data/photo/2020/07/27/5f1e7ad5324dc.jpg,32113,sapi,12.5
+54,132.0,19.7,3.2,6.0,Sapi liver segar,https://images.tokopedia.net/img/cache/700/VqbcmM/2021/3/10/964e4fd5-7470-4799-a02f-1e8af6a83177.jpg,24872,sapi,14.924242424242424
+55,123.0,10.4,8.6,0.8,Sapi otak segar,https://asset.kompas.com/crops/Zb2CWR9vmVrUUr6v372o4SJ8gs0=/0x0:1000x667/750x500/data/photo/2021/07/18/60f3913f44be3.jpg,24977,sapi,8.455284552845528
+56,360.0,57.3,6.0,19.2,Sapi paru dendeng mentah,https://img-global.cpcdn.com/recipes/e709be83be77515c/680x482cq70/dendeng-paru-kering-foto-resep-utama.jpg,31112,sapi,15.916666666666664
+57,268.0,23.9,12.7,14.5,Sapi paru goreng,https://awsimages.detik.net.id/community/media/visual/2022/07/14/resep-paru-goreng-ketumbar_43.jpeg?w=1200,15715,sapi,8.917910447761193
+58,126.0,14.0,7.2,1.5,Sapi usus segar,https://images.tokopedia.net/img/cache/700/product-1/2020/6/14/8589094/8589094_bca7552d-86d6-4c95-899c-4915c124c74f_480_480.jpg,17352,sapi,11.11111111111111
+59,49.0,5.8,0.5,5.3,Sop daging sapi masakan,https://img.okezone.com/content/2020/02/27/298/2175054/resep-sayur-sop-daging-masakan-rumahan-paling-populer-24WHr0ACJo.jpg,23203,sapi,11.83673469387755
+60,68.0,9.0,1.9,3.7,Sop kaki sapi masakan,https://www.ruparupa.com/blog/wp-content/uploads/2021/06/Screen-Shot-2021-06-21-at-14.11.27.png,24571,sapi,13.23529411764706
+61,61.0,3.2,3.5,4.3,Susu Sapi,https://awsimages.detik.net.id/community/media/visual/2022/01/16/ciri-ciri-susu-sapi-segar-sudah-basi-1.jpeg?w=1200,33377,sapi,5.245901639344262
+62,328.0,12.6,19.9,24.6,Tahu telur,https://resepkoki.id/wp-content/uploads/2021/09/Resep-Tahu-Telur.jpg,8206,telur,3.841463414634146
+63,162.0,12.8,11.5,0.7,Telur Ayam,https://asset.kompas.com/crops/WYVtX9H9wYlXZDwLmMqHiw2ZJc4=/0x7:740x500/750x500/data/photo/2020/11/13/5fae4aae98da3.jpg,12381,ayam,7.901234567901234
+64,361.0,19.3,31.9,0.7,Telur Ayam bagian kuning,https://assets.hops.id/crop/0x0:0x0/750x500/webp/photo/hops/2020/08/different-egg-yolk-colors.jpg,17127,ayam,5.346260387811634
+65,50.0,10.8,0.0,0.8,Telur Ayam bagian putih,https://res.cloudinary.com/dk0z4ums3/image/upload/v1539314113/attached_image/beragam-khasiat-putih-telur-yang-bisa-didapatkan-tubuh.jpg,12559,ayam,21.6
+66,383.0,15.1,32.9,8.3,Telur Ayam ceplok,https://asset.kompas.com/crops/iCoT-Kr0xhu1V1MGOEhihIfgbYk=/0x0:498x332/750x500/data/photo/2020/02/07/5e3d3ae57251e.jpg,11506,ayam,3.9425587467362924
+67,251.0,16.3,19.4,1.4,Telur Ayam dadar,https://awsimages.detik.net.id/community/media/visual/2022/05/07/resep-telur-dadar-ayam_43.jpeg?w=700&q=90,16715,ayam,6.494023904382471
+68,179.0,13.6,13.3,4.4,Telur ayam kampung ,https://asset.kompas.com/crops/2pq3Gh9tB33koJG0i3C9Bd65utQ=/0x0:1000x667/750x500/data/photo/2020/07/11/5f0970bc01fd5.jpg,11026,ayam,7.597765363128492
+69,386.0,17.0,35.0,0.8,Telur bebek bagian kuning segar,https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2020/09/24/2217151674.jpg,11320,telur,4.404145077720207
+70,54.0,11.0,0.0,0.8,Telur Bebek bagian putih,https://m.ftscrt.com/food/d6ddfb94-7dad-4739-a886-7aa119947f16_lg_sq.jpg,16485,telur,20.37037037037037
+71,54.0,11.0,0.0,0.8,Telur bebek bagian putih segar,https://images.genpi.co/uploads/data/images/2021/landy%20cantik/telur%20bebek%20freepik.jpg,14607,telur,20.37037037037037
+72,320.0,15.1,30.5,0.9,Telur Bebek ceplok,https://statik.tempo.co/data/2020/06/02/id_942491/942491_720.jpg,11820,telur,4.71875
+73,301.0,20.0,23.7,0.0,Telur Bebek dadar,https://cdn0-production-images-kly.akamaized.net/1WivGEoDIspEllYaxZHrpqkjEYQ=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2468104/original/014966900_1543254943-resep-dadar-telur-bebek-sayur-enak-dan-tidak-amis.jpg,18859,telur,6.64451827242525
+74,187.0,10.9,12.4,7.9,Telur bebek tambak segar,https://www.jagel.id/api/listimage/v/Telur-Bebek-Tambak-0-9195c7316763f2dc.jpg,18406,telur,5.828877005347594
+75,195.0,13.6,13.6,1.4,Telur Bebek telur asin,https://asset.kompas.com/crops/2pq3Gh9tB33koJG0i3C9Bd65utQ=/0x0:1000x667/750x500/data/photo/2020/07/11/5f0970bc01fd5.jpg,11935,telur,6.9743589743589745
+76,116.0,10.7,7.0,1.6,Telur burung puyuh segar,https://img.celebrities.id/okz/700/5Mzp26/master_j6A38lc90K_1541_telur_burung_puyuh.jpg,10480,telur,9.224137931034482
+77,144.0,12.0,10.2,0.0,Telur Penyu,https://awsimages.detik.net.id/community/media/visual/2020/07/02/telur-penyu-4.jpeg?w=700&q=90,13000,telur,8.333333333333332
+78,425.0,31.0,28.0,10.0,Telur Terubuk,https://lovepeaceveggiefood.files.wordpress.com/2020/09/screenshot_2020-09-18-19-57-07-39.jpg,6194,telur,7.294117647058823
+79,130.0,14.0,7.2,1.5,Usus Sapi,https://awsimages.detik.net.id/community/media/visual/2020/07/24/usus-sapi.jpeg?w=724,27269,sapi,10.76923076923077
