@@ -109,8 +109,6 @@ Sebelum menjalankan aplikasi, Anda harus mengunduh file model pembelajaran menda
 
 1. Buka tautan Google Drive berikut:  
    👉 **[Download Model AI NutriFirst](https://drive.google.com/drive/folders/1tPR9K9CM5gO_rBTxl1cOLmTiPqq9p-Sq?usp=drive_link)**
-   > [!IMPORTANT]  
-   > Pastikan folder Google Drive tersebut telah dibagikan/memiliki akses bagi akun **`capstone@student.devacademy.id`** agar reviewer dapat melihat dan mengunduh berkas model.
 2. Unduh file berikut:
    * `nutri_model.keras`
    * `scaler_nn.pkl`
