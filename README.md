@@ -2,7 +2,7 @@
 
 **ID Tim Capstone Project:** CC26-PSU102
 
-Proyek ini adalah platform personalisasi gizi **NutriFirst** yang memadukan keahlian **Full-Stack Web Development** dan **Data Science / Artificial Intelligence** untuk memberikan rekomendasi menu makanan berbasis budget dan gizi dalam upaya pencegahan stunting.
+Proyek ini adalah platform personalisasi gizi **NutriFirst** yang memadukan keahlian **FullStack**, **AI Engineer**, dan **Data Science** untuk memberikan rekomendasi menu makanan berbasis budget dan gizi dalam upaya pencegahan stunting.
 
 ---
 
@@ -21,9 +21,20 @@ Proyek ini adalah platform personalisasi gizi **NutriFirst** yang memadukan keah
 
 ## 📋 Deskripsi Proyek
 
-NutriFirst dirancang sebagai solusi penanganan stunting melalui rekomendasi menu makanan bergizi seimbang yang menyesuaikan dengan budget pengguna. Proyek ini terdiri dari dua pilar utama:
-1. **Fullstack Web Application**: Sistem web interaktif bagi pengguna akhir untuk melakukan login/registrasi, mengirimkan kriteria budget dan bahan makanan, melihat rekomendasi gizi yang dipersonalisasi, serta menyimpan riwayat pencarian/prediksi.
-2. **Data Science & AI Service**: Pipeline analisis gizi makanan Indonesia, dashboard interaktif visualisasi data, serta model pembelajaran mendalam (Deep Learning) berbasis jaringan saraf tiruan (Neural Network) yang diekspos melalui REST API untuk memberikan skor kelayakan gizi secara *real-time*.
+NutriFirst dirancang sebagai solusi penanganan stunting melalui rekomendasi menu makanan bergizi seimbang yang menyesuaikan dengan budget pengguna. Proyek ini terdiri dari tiga pilar utama yang saling terintegrasi:
+
+1. **FullStack**:
+   * Aplikasi web interaktif berbasis React (Vite) untuk menampilkan visualisasi rekomendasi gizi yang dipersonalisasi.
+   * RESTful API backend berbasis Express.js dengan ORM Prisma (PostgreSQL) untuk mencatat riwayat rekomendasi pengguna secara aman menggunakan otentikasi JWT.
+2. **AI Engineer**:
+   * Pemodelan Deep Learning (Neural Network) menggunakan TensorFlow Functional API / Subclassing untuk klasifikasi kelayakan gizi menu makanan.
+   * Implementasi komponen kustom (`CustomDenseLayer`) serta ekspor model ke format siap produksi (`.keras`).
+   * REST API mandiri menggunakan FastAPI & Uvicorn untuk memproses inference skor kelayakan gizi secara *real-time*.
+   * Integrasi TensorBoard untuk pemantauan dan visualisasi metrik pelatihan model.
+3. **Data Science**:
+   * Data Wrangling secara end-to-end (Gathering, Assessing, dan Cleaning data gizi makanan Indonesia).
+   * Analisis Data Eksploratif (EDA) untuk mengukur korelasi harga vs protein dan memahami profil gizi menu.
+   * Pengembangan dan deployment dashboard interaktif berbasis Streamlit ke Streamlit Cloud untuk visualisasi data gizi publik.
 
 ---
 
@@ -31,17 +42,17 @@ NutriFirst dirancang sebagai solusi penanganan stunting melalui rekomendasi menu
 
 ```text
 NutriFirst-app-main/
-├── AImodelNutrifirst/              # Data Science & AI Services (Python)
-│   ├── AI_Pipeline/                # Pipeline & File Model Deep Learning
-│   │   ├── AI_Model_NutriFirst.ipynb # Notebook pelatihan model
-│   │   ├── nutri_model.keras       # File model neural network (diunduh dari Drive)
-│   │   ├── scaler_nn.pkl           # File normalisasi scaler (diunduh dari Drive)
-│   │   └── logs/                   # Log visualisasi TensorBoard
-│   ├── api_ai_model.py             # Inference API REST FastAPI
-│   ├── dashboard.py                # Dashboard Streamlit untuk analisis gizi
-│   ├── main_data.csv               # Dataset menu makanan yang difilter
-│   ├── nutrition_with_price.csv    # Dataset mentah
-│   └── requirements.txt            # Dependensi Python
+├── AImodelNutrifirst/              # Python Services (AI Engineer & Data Science)
+│   ├── AI_Pipeline/                # Pipeline & File Model (AI Engineer)
+│   │   ├── AI_Model_NutriFirst.ipynb # Notebook pelatihan model (AI & Data Science)
+│   │   ├── nutri_model.keras       # File model neural network (AI Engineer - diunduh dari Drive)
+│   │   ├── scaler_nn.pkl           # File normalisasi scaler (AI Engineer - diunduh dari Drive)
+│   │   └── logs/                   # Log visualisasi TensorBoard (AI Engineer)
+│   ├── api_ai_model.py             # Inference API REST FastAPI (AI Engineer)
+│   ├── dashboard.py                # Dashboard Streamlit untuk analisis gizi (Data Science)
+│   ├── main_data.csv               # Dataset menu makanan hasil wrangling (Data Science)
+│   ├── nutrition_with_price.csv    # Dataset mentah (Data Science)
+│   └── requirements.txt            # Dependensi Python (AI Engineer & Data Science)
 ├── backend/                        # Backend REST API (Node.js & Express)
 │   ├── api/                        # Serverless handler (untuk Vercel)
 │   ├── prisma/                     # Konfigurasi ORM Prisma & Skema PostgreSQL
@@ -69,17 +80,26 @@ NutriFirst-app-main/
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Fitur Utama & Checklist Capstone
 
-| Pilar | Fitur | Keterangan |
-|-------|-------|------------|
-| **Fullstack Web App** | **Sistem Auth JWT** | Registrasi & Login aman menggunakan HttpOnly Cookie untuk menyimpan token JWT. |
-| | **Rekomendasi Terintegrasi** | Mengirim kriteria ke backend, meminta skor gizi ke AI Service, dan menampilkan menu terbaik. |
-| | **History Pelacakan** | Menyimpan riwayat pencarian rekomendasi ke database PostgreSQL per user. |
-| **Data Science & AI** | **Deep Learning Model** | Klasifikasi kelayakan gizi makanan menggunakan arsitektur Neural Network (ResNet-Style). |
-| | **Inference API (FastAPI)** | Menyajikan endpoint `/recommend` dan `/predict` secara cepat menggunakan FastAPI. |
-| | **Dashboard Streamlit** | Visualisasi interaktif hubungan gizi, sebaran harga, analisis efisiensi protein, dan korelasi harga-gizi. |
-| | **Export Data** | Mengunduh hasil filter menu dari dashboard Streamlit langsung ke format CSV. |
+### 1. FullStack
+* **Panggilan API & Module Bundler**: Integrasi call API Axios dalam bundling Vite React.
+* **RESTful API Express**: API terstandarisasi dengan endpoint `/api/auth` dan `/api/recommend`.
+* **Penyimpanan Database**: Pencatatan riwayat prediksi menu gizi ke dalam database PostgreSQL menggunakan Prisma ORM.
+* **Keamanan**: Implementasi otentikasi JWT yang disimpan via HttpOnly cookie untuk melindungi riwayat data user.
+
+### 2. AI Engineer
+* **Model Deep Learning**: Pembuatan arsitektur Neural Network menggunakan TensorFlow Functional API.
+* **Komponen Kustom**: Implementasi kustom layer (`CustomDenseLayer`) terserialisasi dalam model.
+* **Inference REST API**: REST API mandiri dengan FastAPI untuk merespons kalkulasi kelayakan menu secara instan.
+* **TensorBoard Monitoring**: Visualisasi performa proses pelatihan model AI melalui TensorBoard log.
+* **Performa Model Teruji**: Memenuhi syarat performa minimal akurasi 85% dan MAE maksimal 0.02.
+
+### 3. Data Science
+* **Wrangling Data**: End-to-end wrangling data gizi menu Indonesia (Gathering, Assessing, dan Cleaning data).
+* **Exploratory Data Analysis (EDA)**: Menjawab pertanyaan bisnis mengenai korelasi harga dan gizi menu.
+* **Dashboard Streamlit**: Visualisasi grafis hubungan nutrisi (protein, kalori, lemak) dan harga.
+* **Streamlit Cloud Deployment**: Dashboard Streamlit dideploy secara publik agar dapat diakses oleh reviewer/publik.
 
 ---
 
@@ -105,34 +125,41 @@ Lakukan langkah-langkah di bawah ini untuk menjalankan semua service di lingkung
 
 ---
 
-### 1. Data Science & AI Service (Python)
+### 1. AI Engineer (FastAPI Inference Service)
 
-Pastikan Anda telah mengunduh model AI ke folder `AI_Pipeline/` sesuai petunjuk di atas.
+Pastikan file model AI hasil unduh sudah berada di folder `AImodelNutrifirst/AI_Pipeline/`.
 
 #### A. Instalasi Dependensi
-Buka terminal baru di root proyek dan masuk ke folder `AImodelNutrifirst`:
+Buka terminal baru di root proyek, masuk ke folder `AImodelNutrifirst`, lalu instal dependensi Python:
 ```bash
 cd AImodelNutrifirst
 pip install -r requirements.txt
 ```
 
-#### B. Menjalankan Dashboard Streamlit
-Untuk menjalankan visualisasi data dan eksplorasi data gizi:
-```bash
-streamlit run dashboard.py
-```
-* Dashboard akan berjalan di: `http://localhost:8501`
-
-#### C. Menjalankan REST API FastAPI
-Untuk menjalankan server inference model AI guna melayani permintaan prediksi dari backend:
+#### B. Menjalankan REST API FastAPI
 ```bash
 uvicorn api_ai_model:app --reload
 ```
-* API docs (Swagger UI) dapat diakses di: `http://localhost:8000/docs`
+* REST API akan berjalan di: `http://localhost:8000`
+* Dokumentasi API (Swagger UI) dapat diakses di: `http://localhost:8000/docs`
+* Visualisasi TensorBoard: `tensorboard --logdir AI_Pipeline/logs/fit` (lahu buka `http://localhost:6006`)
 
 ---
 
-### 2. Backend Server (Node.js & Express)
+### 2. Data Science (Dashboard Streamlit)
+
+Dashboard ini digunakan untuk menampilkan insight, grafik visualisasi gizi, dan eksplorasi menu makanan.
+
+#### A. Menjalankan Dashboard
+Di terminal yang sama (atau pastikan sudah masuk ke folder `AImodelNutrifirst`):
+```bash
+streamlit run dashboard.py
+```
+* Dashboard Streamlit lokal akan terbuka secara otomatis di: `http://localhost:8501`
+
+---
+
+### 3. FullStack - Backend (Express & Prisma)
 
 #### A. Instalasi Dependensi
 Buka terminal baru di root proyek dan masuk ke folder `backend`:
@@ -166,7 +193,7 @@ npm run dev
 
 ---
 
-### 3. Frontend Web Application (React & Vite)
+### 4. FullStack - Frontend (React & Vite)
 
 #### A. Instalasi Dependensi
 Buka terminal baru di root proyek dan masuk ke folder `frontend`:
@@ -196,7 +223,7 @@ npm run dev
 
 ## 🔗 Tautan Penting & Live Demo
 
-* **Streamlit Cloud Dashboard (Online - Tanpa Install)**:  
+* **Streamlit Cloud Dashboard (Data Science - Live)**:  
   [https://nutrifirst-codebooster-codingcampdbs2026.streamlit.app](https://nutrifirst-codebooster-codingcampdbs2026.streamlit.app)
-* **Unduh Model AI**:  
+* **Unduh Model AI (AI Engineer)**:  
   [Google Drive Folder](https://drive.google.com/drive/folders/1tPR9K9CM5gO_rBTxl1cOLmTiPqq9p-Sq?usp=drive_link)
